@@ -17,18 +17,18 @@ We don't have access to this website in our Shell organiztion as it has been blo
 
 
 * Architectural Diagram (Shows how key parts of the system work)
-[![ArchitecturalDiagram](https://github.com/lak9483/azure-devops/Screenshots/ArchitecturalDiagram.svg)]
+[![ArchitecturalDiagram](https://github.com/lak9483/azure-devops/tree/main/Screenshots/ArchitecturalDiagram.svg)]
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
 use the below commad to get the ssh key
 ssh-keygen -t rsa
-[![SSHKey](https://github.com/lak9483/azure-devops/Screenshots/SSHKey.svg)]
+[![SSHKey](https://github.com/lak9483/azure-devops/tree/main/Screenshots/SSHKey.svg)]
 
 * Project cloned into Azure Cloud Shell
 Run the command git clone git@github.com:lak9483/azure-devops.git
-[![Clone](https://github.com/lak9483/azure-devops/Screenshots/GitClone.svg)]
+[![Clone](https://github.com/lak9483/azure-devops/tree/main/Screenshots/GitClone.svg)]
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
