@@ -11,7 +11,7 @@ We don't have access to this website in our Shell organiztion as it has been blo
 ![Trello](/Screenshots/Trello.png)
 
 * A link to a spreadsheet that includes the original and final project plan>
-https://github.com/lak9483/azure-devops/project-management-template.xlsx
+https://github.com/lak9483/azure-devops/blob/main/project-management-template.xlsx
 ## Instructions
 
 
@@ -60,7 +60,7 @@ Port: 443
 ![LogFile](/Screenshots/LogFile.png)
 
 *Loadtest screenshot
-![Loadtest](/Screenshots/Linttestpng)
+![Load](/Screenshots/Linttest.png)
 
 With all the steps screenshots are added in the Word document
 
