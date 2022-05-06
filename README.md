@@ -7,19 +7,28 @@
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
+* A link to a Trello board for the project:
+We don't have access to this website in our Shell organiztion as it has been blocked.
+[![Trello](https://github.com/lak9483/azure-devops/Screenshots/Trello.svg)]
+
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+
+* Architectural Diagram (Shows how key parts of the system work)
+[![ArchitecturalDiagram](https://github.com/lak9483/azure-devops/Screenshots/ArchitecturalDiagram.svg)]
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
+use the below commad to get the ssh key
+ssh-keygen -t rsa
+[![SSHKey](https://github.com/lak9483/azure-devops/Screenshots/SSHKey.svg)]
 
 * Project cloned into Azure Cloud Shell
+Run the command git clone git@github.com:lak9483/azure-devops.git
+[![Clone](https://github.com/lak9483/azure-devops/Screenshots/GitClone.svg)]
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
