@@ -23,28 +23,28 @@ https://github.com/lak9483/azure-devops/project-management-template.xlsx
 * Project running on Azure App Service
 use the below commad to get the ssh key
 ssh-keygen -t rsa
-![SSHKey](https://github.com/lak9483/azure-devops/tree/main/Screenshots/SSHKey.png)
+![SSHKey](/Screenshots/SSHKey.png)
 
 * Project cloned into Azure Cloud Shell
 Run the command git clone git@github.com:lak9483/azure-devops.git
-![Clone](https://github.com/lak9483/azure-devops/tree/main/Screenshots/GitClone.png)
+![Clone](/Screenshots/GitClone.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
-![Test](https://github.com/lak9483/azure-devops/tree/main/Screenshots/RunTest.png)
+![Test](/Screenshots/RunTest.png)
 
 Configuring in github action
-![GithubAction](https://github.com/lak9483/azure-devops/tree/main/Screenshots/GithubAction.png)
+![GithubAction](/Screenshots/GithubAction.png)
 
 Create VM under the resouce group
-![CreateVM](https://github.com/lak9483/azure-devops/tree/main/Screenshots/CreateVM.png)
+![CreateVM](/Screenshots/CreateVM.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 Deploy the app with this command az webapp up --name flaskapp562022 --resource-group Azuredevops --runtime "PYTHON:3.7"
-![AppDeployment](https://github.com/lak9483/azure-devops/tree/main/Screenshots/AppDeployment.png)
+![AppDeployment](/Screenshots/AppDeployment.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 Succefull run of pipeline
-![Pipeline](https://github.com/lak9483/azure-devops/tree/main/Screenshots/Pipeline.png)
+![Pipeline](/Screenshots/Pipeline.png)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
@@ -54,13 +54,13 @@ udacity@Azure:~$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}
 ```
-![Prediction](https://github.com/lak9483/azure-devops/tree/main/Screenshots/Prediction.png)
+![Prediction](/Screenshots/Prediction.png)
 
 * Output of streamed log files from deployed application
-![LogFile](https://github.com/lak9483/azure-devops/tree/main/Screenshots/LogFile.png)
+![LogFile](/Screenshots/LogFile.png)
 
 *Loadtest screenshot
-![Loadtest](https://github.com/lak9483/azure-devops/tree/main/Screenshots/Linttestpng)
+![Loadtest](/Screenshots/Linttestpng)
 
 With all the steps screenshots are added in the Word document
 
