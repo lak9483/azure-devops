@@ -18,7 +18,7 @@ https://github.com/lak9483/azure-devops/blob/main/project-management-template.xl
 * Architectural Diagram (Shows how key parts of the system work)
 ![ArchitecturalDiagram](/Screenshots/ArchitecturalDiagram.png)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
 use the below commad to get the ssh key
@@ -40,6 +40,7 @@ Create VM under the resouce group
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 Deploy the app with this command az webapp up --name flaskapp562022 --resource-group Azuredevops --runtime "PYTHON:3.7"
+
 ![AppDeployment](/Screenshots/AppDeployment.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
@@ -59,7 +60,7 @@ Port: 443
 * Output of streamed log files from deployed application
 ![LogFile](/Screenshots/LogFile.png)
 
-*Loadtest screenshot
+* Loadtest screenshot
 ![Load](/Screenshots/Linttest.png)
 
 With all the steps screenshots are added in the Word document
